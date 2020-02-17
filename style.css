@@ -7,9 +7,11 @@ header {
     background: #21d1c8;
     margin-top: 0;
     font-size: 30px;
+    color: purple;
 }
 h2 {
     font-size: 25px;
+    color: red;
 }
 img {
     border-radius: 20px;
@@ -45,6 +47,19 @@ article {
      rgba(0,0,0,.4));
     margin: -30px 0;
     font-size: 24px;
-    
-
+    text-align: center;
+    padding: 0 40px;
+}
+p { 
+    margin: 0 40;
+    line-height: 10;
+}
+@media (max-width: 500px) {
+    .sidenav {
+        padding-top: 15px;}
+    .sidenav a {
+        font-size: 18px; }
+    article {
+        margin: 0 auto;
+    }
 }
