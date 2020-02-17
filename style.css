@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background: rgba(192,192,192,0.7);
+}
+header {
+    padding: 30px 60px;
+    background: #21d1c8;
+    margin-top: 0;
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+img {
+    border-radius: 20px;
+    border-color: solid black;
+}
+.sidenav {
+    height: 100%;
+    width: 140px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding-top: 20px;
+}
+.sidenav a{
+    padding: 8px 16px 8px 16px;
+    display: block;
+    color: white;
+    font-size: 24px;
+}
+.main { 
+    margin-left: 140px;
+    padding: 0 auto;
+}
+article {
+    color: white;
+    background: black;
+    background: linear-gradient(bottom, rgba(0,0,0,1),
+     rgba(0,0,0,.4));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1),
+     rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1),
+     rgba(0,0,0,.4));
+    margin: -30px 0;
+    font-size: 24px;
+    
+
+}

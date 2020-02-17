@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head> 
+    <script async src="index.js"></script>
+    <link href="style.css"rel="stylesheet">
+    <title> About Winson Chan</title>
+</head>
+
+<body>
+<div class="sidenav">
+    <a href="#location">Location</a>
+    <a href="#experiences">Experiences</a>
+    <a href="#likes">Likes and Dislikes</a>
+    <a href="#contact">Contact me</a>
+</div>
+
+<div class="main">
+<header> <h1> Winson Chan</h1>
+<h2 id="date"> </h2>
+<img src="https://i.imgur.com/Xm7oZAJ.jpg"alt=
+"Winson Chan Temple"width="200px">
+</header>
+
+<article class=first> <p> <h1 id=location>Where am I From?</h1>
+     <small> I was born in 
+New York City and grew up in Great Neck, Long Island.
+</small> </p> </article>
+<article> <p> <h1 id=experiences>Experiences</h1>
+    <small> Text Experience That I haven't written yet.
+</small> </p>  </article>
+<article> <p> <h1 id=likes>Likes and Dislikes</h1>
+    <small>Text that I haven't written yet.</small>
+    </p> </article>
+<article> <p> <h1 id=contact>Contact me</h1>
+<small> chanw835@gmail.com<br /> (516)662-9033
+<br /> <input type="email"placeholder="Enter your Email">
+<button type="button"onclick="myFunction()">Submit</button> 
+<br /><p id=enter>&nbsp</p>
+</small></p></article>
+</div>
+
+<script> 
+function myFunction() {
+    document.getElementById("enter").innerHTML
+    ="Thank you for your email<br /> I will be in touch soon";
+}
+</script>
+</body>
